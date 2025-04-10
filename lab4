@@ -1,0 +1,6 @@
+n=9
+a=[0]*n 
+from random import randint 
+for i in range(n):
+    a[i]=randint(9,56)
+print(a)
